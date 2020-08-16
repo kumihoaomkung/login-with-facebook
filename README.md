@@ -141,7 +141,7 @@ else
  // Get login url
     $facebook_permissions = ['email']; // Optional permissions
 
-    $facebook_login_url = $facebook_helper->getLoginUrl('https://greenhouses-pro.co.uk/demo/', $facebook_permissions);
+    $facebook_login_url = $facebook_helper->getLoginUrl('http://yourwebsite.com/facebook/', $facebook_permissions);
     
     // Render Facebook login button
     $facebook_login_url = '<div align="center"><a href="'.$facebook_login_url.'"><img src="php-login-with-facebook.gif" alt="เข้าสู้ระบบด้วย Facebook" /></a></div>';
