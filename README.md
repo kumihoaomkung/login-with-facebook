@@ -25,3 +25,11 @@
 ```
 composer require facebook/graph-sdk
 ```
+
+#### config.php
+ในไฟล์นี้ก่อนอื่นเราต้องเพิ่มไฟล์ autoload.php ของไลบรารี Facebook SDK สำหรับ PHP โดยใช้คำสั่ง require_once
+
+หลังจากนี้เราต้องตรวจสอบตัวแปรเซสชันเริ่มต้นหรือไม่โดยใช้ฟังก์ชัน PHP session_id ()
+
+
+ตอนนี้เราต้องเรียกว่า Facebook API ที่นี่เราต้องกำหนด app_id และ app_secret คีย์ที่เราต้องได้รับเมื่อสร้างแอพ Facebook  ที่นี่เราต้องกำหนด default_graph_version ด้วย
