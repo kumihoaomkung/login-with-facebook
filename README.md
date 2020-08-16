@@ -185,3 +185,19 @@ else
  </body>
 </html>
 ```
+
+#### logout.php
+
+```php
+<?php
+
+//logout.php
+
+session_destroy();
+
+header('location:index.php');
+
+?>
+```
+
+ฝากไปกดติดตามเพจด้วยนะ https://facebook.com/kumihoaomkung
